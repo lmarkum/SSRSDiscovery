@@ -1,7 +1,7 @@
 
 <#
 
-This is a series of T-SQL queries ran via PowerSehll using the DBATools module.
+This is a series of T-SQL queries ran via PowerShell using the DBATools module.
 
 The query results are output to text files. 
 
