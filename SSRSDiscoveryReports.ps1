@@ -70,7 +70,6 @@ ELSE EL2.UserName END AS [UserName],
 ReportPath
 
 FROM dbo.ExecutionLog2 AS EL2
-WHERE EL2.UserName <> 'SRB\111310'
 ORDER BY EL2.UserName, ReportPath;" | Out-File 'C:\temp\SSRSReportsUserNamesAndReportsRan_ExecutionLog2.txt' 
 
 
