@@ -96,7 +96,7 @@ INNER JOIN dbo.Users MODIFIED_BY
 ON MODIFIED_BY.UserID = Subscriptions.ModifiedByID
 INNER JOIN dbo.ReportSchedule
 ON ReportSchedule.SubscriptionID = Subscriptions.SubscriptionID
-AND ReportSchedule.ReportID = Catalog.ItemID;;" | Out-File 'C:\temp\SSRSReportsSubscriptions.txt'
+AND ReportSchedule.ReportID = Catalog.ItemID;" | Out-File 'C:\temp\SSRSReportsSubscriptions.txt'
 
 
 
